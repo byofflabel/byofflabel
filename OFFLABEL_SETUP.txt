@@ -1,0 +1,19 @@
+OFF LABEL — SOURCE CODE
+
+Setup:
+1. Install Node.js, Yarn, Python and MongoDB.
+2. Copy backend/.env.example to backend/.env and fill in your own values.
+3. Copy frontend/.env.example to frontend/.env.
+4. Backend: cd backend && pip install -r requirements.txt && uvicorn server:app --host 0.0.0.0 --port 8001
+5. Frontend: cd frontend && yarn install && yarn start
+6. Edit portfolio projects in frontend/src/data/projects.js.
+
+Security:
+No real environment variables, passwords, upload tokens, database content, node_modules or build output are included.
+Public media remains referenced by its existing public asset URLs.
+
+Contact form (Formspree):
+- The form already sends to https://formspree.io/f/xppdoerp. No environment variable is required.
+- Optional: set REACT_APP_FORMSPREE_URL to use a different Formspree form.
+- The backend folder is no longer needed for the site to run.
+- The first test submission needs to be confirmed from the email Formspree sends you.
