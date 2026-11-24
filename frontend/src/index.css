@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: "Chomsky";
-  src: url("/fonts/Chomsky.otf") format("opentype");
+  src: url("./Chomsky.otf") format("opentype");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
